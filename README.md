@@ -24,7 +24,7 @@ models.
   un-preprocessed CSV input directly.
 
 ## c. GitHub Repository Link
-`<ADD YOUR GITHUB REPO URL HERE AFTER PUSHING>`
+https://github.com/pprraasshhaanntthh/ml-assignment-2
 
 ## d. Models Used
 
@@ -84,4 +84,4 @@ streamlit run app.py
 - Side-by-side comparison table across all 5 models on the uploaded data
 
 ## Live Streamlit App Link
-`<ADD YOUR DEPLOYED STREAMLIT APP URL HERE>`
+https://ml-assignment-2-fh4jyhfxbtjjzy44xmfxwd.streamlit.app
