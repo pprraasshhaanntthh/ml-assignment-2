@@ -54,19 +54,19 @@ Evaluated on an 80/20 stratified train/test split (`random_state=42`),
 ## Project Structure
 ```
 Assignment2/
-├── app.py              # Streamlit app
-├── train_models.py     # data loading, preprocessing, training, evaluation, saving
-├── requirements.txt
-├── README.md
-├── adult.data           # raw UCI Adult dataset (source data)
-├── test_data.csv         # held-out raw test sample used by the Streamlit app
-└── model/
-    ├── logistic_regression.joblib
-    ├── decision_tree.joblib
-    ├── knn.joblib
-    ├── naive_bayes.joblib
-    ├── svm.joblib
-    └── metrics.json      # metrics computed during training
+|-- app.py              # Streamlit app
+|-- train_models.py     # data loading, preprocessing, training, evaluation, saving
+|-- requirements.txt
+|-- README.md
+|-- adult.data           # raw UCI Adult dataset (source data)
+|-- test_data.csv         # held-out raw test sample used by the Streamlit app
+`-- model/
+    |-- logistic_regression.joblib
+    |-- decision_tree.joblib
+    |-- knn.joblib
+    |-- naive_bayes.joblib
+    |-- svm.joblib
+    `-- metrics.json      # metrics computed during training
 ```
 
 ## Running Locally
